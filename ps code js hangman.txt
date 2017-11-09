@@ -1,0 +1,24 @@
+
+
+..create a list of words, store in an array
+..create a list of user inputs, store in an array
+..load 10 lives/guesses
+
+get user input/guess, store user guesses in an array?
+check to see if a is somewhere in the hiddenWord   
+    if true reveal the hidden letter in the correct posistion of hiddenWord
+    if this is false remove a life, maybe change the text/backgroud color (could be a different function)
+    
+   ?? if user input completes the word, alert you win - different function?
+   ?? If user input = hiddenWord alert you win?
+
+dispay user guesses via innerhtml.getelementbyid.
+
+if lives = 0 prompt game over, do you want to play again?
+    yes = reset/reload page/rerandomize hiddenWord
+            lives = 10
+    false = thanks for playing
+
+
+
+    somehow try and block second guesses on the same letter -lives

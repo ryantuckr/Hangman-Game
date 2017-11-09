@@ -1,0 +1,30 @@
+body {
+    background-image: url("https://vignette1.wikia.nocookie.net/ninjago/images/0/03/Season3bTeam.png/revision/latest?cb=20160315131342");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    width: 50%;
+    border-radius: 5px;
+    padding: 25px;
+    background-color: grey;
+    margin: 15% auto;
+    text-align: center;
+}
+
+#lego {
+    border-radius: 5px;
+    padding: 25px;
+}
+
+
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 15px;
+}

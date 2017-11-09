@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ryan Tucker | Hangman</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div id=header>
+        <img id="lego" src="assets/images/progresslogo.png">
+    </div>
+
+    <div id="photodiv">
+        
+    </div>
+
+    <div id="container">
+        <div id="main">
+
+            <input type="button" onclick="startGame()" value="Start Game" id="button" />
+            <input type="text" id="input" value="Guess a letter here..."onkeyup="guess()" style="display:none;" />
+            <pre id="hiddenWord"></pre>
+            <p id="guessCount"></p>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js">
+    </script>
+</body>
+
+</html>
